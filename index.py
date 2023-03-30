@@ -1,11 +1,10 @@
-print("Hello,this website is used to calulcate the area and circumference of a circle using the diameter")
-diameter= input ("Please enter the diameter of the circle:")
-import math
-    if diameter == isnumeric()
-        continue
-    else:
-        print("Error")
-        break
-    radius= input(diameter) / 2
-    area= radius.exp(2)* (radius.pi/radius)
+from math import pi
+diameter=input ("Please enter the diameter of the circle:")
+radius= input((diameter) / 2)
+if diameter == float:
+    area= radius.exp(2)*pi
     print(area)
+    circumference = 2 * radius * pi
+    print(circumference)
+else:
+    print("Error")
