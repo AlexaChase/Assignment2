@@ -1,10 +1,10 @@
 from math import pi
-diameter=input ("Please enter the diameter of the circle:")
-radius= diameter/2
-if diameter == float:
-    area= radius.exp(2)*pi
-    print(area)
-    circumference = 2 * radius * pi
-    print(circumference)
+d=input ("Please enter the diameter of the circle:")
+r= d/2
+if d == float:
+    a= r.exp(2)*pi
+    print(a)
+    c = 2 * r * pi
+    print(c)
 else:
     print("Error")
