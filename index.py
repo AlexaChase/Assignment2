@@ -1,4 +1,4 @@
-from math import pi
+from math import pi, divide
 d=input ("Please enter the diameter of the circle:")
 r= d/2
 if d == float:
