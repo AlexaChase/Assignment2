@@ -1,5 +1,5 @@
 from math import pi
-Diameter=input("Please enter the diameter of the circle:")
-if Diameter== int() or float():
-    Radius= Diameter/2
-    print(Radius)
+Circlediameter= int or float(input("Please enter the diameter of the circle:"))
+if Circlediameter== int() or float():
+    Circleradius= Circlediameter/2
+    print(Circleradius)
