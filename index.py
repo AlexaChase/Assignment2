@@ -1,7 +1,7 @@
 from math import pi
-d= float or int (input ("Please enter the diameter of the circle:"))
-r= input(d)/2 #division
+d= input ("Please enter the diameter of the circle:")
 if d == float or int:
+    r= input(d)/2 #division
     a= r.exp(2)*pi
     print(a)
     c = 2 * r * pi
