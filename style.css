@@ -1,0 +1,12 @@
+/* Due to error in MDL : https://github.com/google/material-design-lite/issues/5281
+*/
+.mdl-ripple {
+    background: #000;
+    opacity: 0.001;
+  }
+
+  body {
+    background-color: #e6e6fa;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000; 
+  }
