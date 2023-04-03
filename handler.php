@@ -12,9 +12,21 @@
         $CircleRadius = $CircleDiamater/2;
         $CircleArea= $p * $CircleRadius.pow(2);
         $CircleCircumference= 2 * $p * $CircleRadius;
-        if ($CircleDiamater > "0") {
+        if ($CircleDiamater > 0) {
             echo "The area of the circle:";
             echo ($CircleArea);
             echo "The circumference of the circle:";
             echo ($CircleCircumference);
         }
+        elseif (Circlediameter<=0) {
+            echo "Error, number must be positive";
+        }
+        elseif  (CircleCircumference<=0) {
+            echo "Error, output was negative";
+        }
+        elseif (CircleArea<=0) {
+            echo "Error, output was negative";
+        }
+        ?>
+    </body>
+</html>
